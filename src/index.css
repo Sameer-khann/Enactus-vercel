@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	--vh: 1vh;
+	--vw: 1vw;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: initial;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.safe-space {
+	margin-top: var(--header-height);
+}
+
+.negative-safe-space {
+	margin-top: var(--header-height);
+}
+
+.hero {
+	height: calc(100 * var(--vh) - var(--header-height));
+	width: calc(100 * var(--vw));
+}
+
+
+.college{
+	width: 100%;
+}

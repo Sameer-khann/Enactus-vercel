@@ -1,0 +1,13 @@
+#abeer-heading > .main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#abeer-heading > .main::before,
+#abeer-heading > .main::after {
+	content: "\00B7";
+	font-weight: inherit;
+	font-size: inherit;
+	align-self: center;
+	margin: auto 0;
+}

@@ -1,0 +1,6 @@
+#abeer-heading > .main::before,
+#abeer-heading > .main::after {
+	content: "─";
+	font-weight: inherit;
+	font-size: inherit;
+}

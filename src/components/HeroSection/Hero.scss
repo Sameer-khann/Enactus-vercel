@@ -1,0 +1,32 @@
+.owl-carousel {
+	.nav-cotainer {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		justify-content: space-between;
+
+		button {
+			transform: translateY(-50%);
+			background: none;
+			outline: none;
+			border: none;
+			&.owl-prev {
+				position: absolute;
+				left: 1%;
+			}
+			&.owl-next {
+				position: absolute;
+				right: 1%;
+			}
+		}
+
+		span {
+			border: none;
+			outline: none;
+			color: #fcc21e;
+			font-size: 6rem;
+		}
+	}
+}

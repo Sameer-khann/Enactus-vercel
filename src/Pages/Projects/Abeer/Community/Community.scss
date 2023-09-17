@@ -1,0 +1,25 @@
+.Tagline{
+
+    .heading{
+        height: 6vw;
+   
+        .wrap {
+          top: -2px;
+          z-index: 0;
+          border-top: 4px solid #0F7D63;
+          transform: translateY(50%);
+        }
+        .title {
+          z-index: 1;
+          height: 6vw;
+          font-size: 3.5vw;
+          font-weight: 600;
+          letter-spacing: 2.38px;
+          color: #0F7D63;
+        }
+    }
+    .sub-heading{
+        font-size: 2.5vw; 
+    }
+  
+}

@@ -1,0 +1,21 @@
+// do not import this fil in About.js directly
+
+.about {
+	.about-inner-left {
+		border-bottom: 1px solid;
+		// this is a mixin available from bootstrap
+		@include media-breakpoint-up(md) {
+			border-bottom: none;
+			border-right: 1px solid;
+		}
+	}
+	.about-inner-right {
+		border-top: 1px solid;
+		list-style-position: inside;
+		@include media-breakpoint-up(md) {
+			list-style-position: outside;
+			border-top: none;
+			border-left: 1px solid;
+		}
+	}
+}

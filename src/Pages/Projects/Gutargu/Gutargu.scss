@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Samarkan";
+	src: local("Samarkan"), url("../../../Font/SAMAN___.TTF") format("truetype");
+}
+
+.gutargu {
+	.gutargu-heading {
+		font-family: "Samarkan";
+		text-shadow: 0 2px 0 black;
+		color: #00525e;
+		font-size: 5rem;
+		@include media-breakpoint-up(sm) {
+			font-size: 7rem;
+		}
+		@include media-breakpoint-up(md) {
+			font-size: 9rem;
+		}
+		@include media-breakpoint-up(lg) {
+			font-size: 11rem;
+		}
+	}
+}
