@@ -21,10 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
-#eslint
-.eslintcache
-
-# any log file
-.log
+node_modules
