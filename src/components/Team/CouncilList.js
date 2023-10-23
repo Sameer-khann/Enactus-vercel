@@ -22,6 +22,7 @@ import Faculty from "../../Assets/Members/Faculty.jpeg";
 import Vibhor from "../../Assets/Members-8.0/vibhor.jpg"
 import Tanishka from "../../Assets/Members-8.0/tanishka.jpeg.jpg"
 import Divyansh from "../../Assets/Members-8.0/divyansh.png"
+import PreetiMaam from "../../Assets/Members-8.0/Preeti.jpg"
 
 
 // Data list of enactus 6.0
@@ -132,6 +133,11 @@ const Data = [
     image: Divyansh,
     name: "Divyansh Karakoti",
     position: "General Secretary & PR Head",
+  },
+  {
+    image: PreetiMaam,
+    name: "Preeti Dhaka",
+    position: "Faculty Coordinator",
   },
 ];
 export default Data;
